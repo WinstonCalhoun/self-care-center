@@ -6,3 +6,47 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+
+* {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+};
+
+html {
+    background-image: linear-gradient(dark-blue - #134d71, light-blue - #78a7c6, #f7e4bf);
+    height: 100%;
+    width: 100%;
+};
+
+.main-title {
+
+};
+
+.message-type {
+
+};
+
+.selection-box {
+
+};
+
+.radio-button {
+
+};
+
+.make-new-message {
+
+};
+
+.login-name {
+
+};
+
+.user-name {
+
+};
+
+.login-page {
+
+};
+
