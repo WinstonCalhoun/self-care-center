@@ -5,20 +5,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <section class="home-page">
-      <img class=>
-      <h1 class="main-title">Self Care Center</h1>
-      <h2 class="message-type">Which type of message?</h2>
-      <button class="make-new-message">Receive Message</button>
+    <h1 class="main-title hidden">Self Care Center</h1>
+    <h2 class="message-type hidden">Which type of message?</h2>
+    <section class="selection-box hidden" id="user-form">
+      <div class="radio-button">
+        <label class="radio-button" id="radio1">
+        <input type="radio" name="radio"/>affirmation</input>
+        <label class="radio-button" id="radio2">
+        <input type="radio" name="radio"/>mantra</input>
+      </div>
+      <div>
+        <button class="make-new-message">Receive Message</button>
+      </div>
     </section>
     <section class="login-page">
       <form>
         <label for="name">User Name</label>
         <input class="user-name" type="text" id="name">
-        <button class="main-page hidden">Login</button>
+        <button class="login-page">Login</button>
       </form>
     </section>
-  
+    <section class="message-box"
+      <img class="yogi" src="./assets/meditate.svg">
+    </section>  
     <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
