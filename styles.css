@@ -10,43 +10,52 @@ black - #000000;
 * {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
-};
+}
 
-html {
-    background-image: linear-gradient(dark-blue - #134d71, light-blue - #78a7c6, #f7e4bf);
+body {
+    background-image: linear-gradient(#134d71, #78a7c6, #f7e4bf);
+    box-sizing: border-box;
     height: 100%;
-    width: 100%;
-};
+}
+
+/* .hidden {
+    display: none;
+  } */
 
 .main-title {
-
-};
+    color: #ffffff;
+}
 
 .message-type {
-
-};
+    color: #ffffff;
+}
 
 .selection-box {
+    display: flex;
+    width: 45%;
+    height: 70px;
+    margin: 4vh auto;
+    border-radius: 10px;
 
-};
+}
 
 .radio-button {
 
-};
+}
 
 .make-new-message {
 
-};
+}
 
 .login-name {
 
-};
+}
 
 .user-name {
 
-};
+}
 
 .login-page {
 
-};
+}
 
