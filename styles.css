@@ -22,13 +22,14 @@ html {
     display: none;
 }
 
-.main-title {
-    color: #ffffff;
-}
-
+.main-title,
 .message-type {
     color: #ffffff;
 }
+/* 
+.message-type {
+    color: #ffffff;
+} */
 
 .selection-box {
     display: flex;
@@ -63,6 +64,8 @@ html {
 
 .make-new-message {
     display: flex;
+    background-color: #134d71;
+    color: #ffffff;
 }
 
 .login-name,
@@ -81,6 +84,7 @@ html {
 
 .login-page {
     margin-left: 65px;
+    color: black;
 }
 
 .yoaki {
