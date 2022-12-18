@@ -50,7 +50,8 @@ html {
     margin-left: 60px;
     background-color: #ffffff;
     border-radius: 10px;
-    align-items: center
+    align-items: center;
+    margin-left: 30vw;
  }
 
 .radio-button {
@@ -64,16 +65,22 @@ html {
     display: flex;
 }
 
-.login-name {
-
+.login-name,
+.user-name,
+.login-page {
+    border-radius: 10px;
+    display: flex;
+    margin: 15px;
+    margin-right: 50px;
+    justify-content: center
 }
 
-.user-name {
-
+.login-name{
+    color: white;
 }
 
 .login-page {
-
+    margin-left: 65px;
 }
 
 .yoaki {
