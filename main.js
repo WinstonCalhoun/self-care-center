@@ -7,24 +7,43 @@
 // The welcome message and name should appear in a logical place of your choosing.
 
 // Global Variables
-var affirmations[];
-var montras[];
- 
+var currentSaying = [];
+
 // Query Selectors
-var radio1 = document.querySelector('#radio1');
-var radio1 = document.querySelector('#radio1');
-var loginPage = document.querySelector('.login-page')
+var radioBox = document.querySelector('.radio-button')
+var loginPage = document.querySelector('.login-page');
 var mainPage = document.querySelector('.selection-box');
+var userName = document.querySelector('.user-name')
 
 // Buttons
-var makeNewBtn = document.querySelector('.make-new-message');
+var receiveNewBtn = document.querySelector('.receive-new-message');
 var loginBtn = document.querySelector('.login-page');
+var affirmationsBtn = document.querySelector('#radio1');
+var mantrasBtn = document.querySelector('#radio2');
 
 // Event Listeners
-makeNewBtn.addEventListener('click', );
+window.addEventListener('load', loginView);
+receiveNewBtn.addEventListener('click', );
 loginBtn.addEventListener('click', );
+affirmationsBtn.addEventListener('click', );
+mantrasBtn.addEventListener('click', );
 
-document.addEventListener('DOMContentLoaded', function() {
-    ();
-    ();
-  });
+// document.addEventListener('DOMContentLoaded', function() {
+//     ();
+//     ();
+//   });
+function loginView(event) {
+    event.preventdefault();
+    mainPage.classList.add('hidden');
+    radioBox.classList.add('hidden');
+};
+
+function showHome() {
+    if (userName.value) {
+        userName.innerHTML = `Welcome ${nameInput.value}.  Enjoy the site!`;
+
+    } else {
+        alert('Please enter a login name to begin!');
+    }
+}
+
