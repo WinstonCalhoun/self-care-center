@@ -14,6 +14,9 @@ I built an app that gives you so self care messages.  When you arrive on the app
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
 
+![Screenshot 2022-12-18 at 8 00 59 PM](https://user-images.githubusercontent.com/111721297/208336758-bb2dfd6a-ee5a-45b2-a453-d320520aa338.png)
+![Screenshot 2022-12-18 at 8 01 34 PM](https://user-images.githubusercontent.com/111721297/208336825-dcfe4f31-c348-4988-9dec-18244417ebd9.png)
+
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
 I am in Week 3 of Mod 1 in the Turing program.  This project took me about 8-10 hours to fully compete the requirments for finishing. 
