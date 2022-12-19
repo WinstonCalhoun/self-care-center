@@ -1,51 +1,37 @@
-# Self Care Center
-## Overview
-How can I care for myself? One way is with affirmations and mantras!
-Affirmations are thoughts of positive self-empowerment, meant to assert your self-worth.
-Mantras are repetive phrases that are repeated again and again during mindfulness practices. Your challenge is to build an app that helps users remind themselves of their inherent value!
-
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
-
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/self-care-center.html). 
-
-## Learning Goals
-
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
-
-## Setup
-
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
-
-______________________________________________________  
-# README Template  
-Before turning this project in, erase this line and everything above it and fill in the info below.  
-______________________________________________________  
-
 # Self-Care Center 
 
 ### Abstract:
 [//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
+I built an app that gives you so self care messages.  When you arrive on the app there is a login page.  Users will input a name and hit the login button.  That will take them to the next page where a "Welcome" message will display with their custom name that was inputed.  There are 2 different sections the user can choose from.  By selecting either affirmation or mantra and clicking the 'Receive Message' button, the user will see a randomized message appear in the box below.
 
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
+-Fork this project to your own Github account.
+-Clone the repository to your local machine using your computers terminal.
+-cd into the project.
+-type: open index.html
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
 
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+I am in Week 3 of Mod 1 in the Turing program.  This project took me about 8-10 hours to fully compete the requirments for finishing. 
 
 ### Contributors:
 [//]: <> (Who worked on this application? Link to their GitHubs.)
+Winston Calhoun - https://github.com/WinstonCalhoun
 
 ### Learning Goals:
 [//]: <> (What were the learning goals of this project? What tech did you work with?)
+-Gain experience building an application that utilizes HTML, CSS and JavaScript.
+-Write HTML and CSS to match a provided comp.
+-Understand how to listen to and respond to user events.
+-Individualize your programming skill set.
 
+I used my computers terminal to open VSCode as my code editor.  Building the HTML, CSS, and JavaScript in the code editor and using my terminal to push the branches up to GitHub.
 ### Wins + Challenges:
 [//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+The first win was getting the login page input to read an input and if nothing is put in the box, then the page will not continue to the next page.
+The second win was getting the Welcome message to appear with the customized input of the users name from the login screen before.
+A challenge for me was I had mixed up some pieces of HTML and my Java was not grabbing the classes or IDs properly.  I overcame this by taking a step back and going line by line making sure each one was working until I found which one wasnt being grabbed.
