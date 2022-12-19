@@ -6,28 +6,31 @@
   </head>
   <body>
     <h1 class="main-title">✨Self Care Center✨</h1>
-    <h2 class="message-type">Which type of message?</h2>
-    <section class="selection-box">
-      <div class="radio-button">
-        <label class="radio-button" id="radio1">
-        <input type="radio" name="radio"/>affirmation</input>
-        <label class="radio-button" id="radio2">
-        <input type="radio" name="radio"/>mantra</input>
-      </div>
-      <div>
-        <button class="receive-new-message">Receive Message</button>
-      </div>
-    </section>
+    <h4 class="say-greeting"></h4>
     <section class="login-page">
       <form>
         <label class="login-name">Users First Name</label>
         <input class="user-name" type="text" id="name">
-        <button class="login-page">Login</button>
+        <button class="login-page-button">Login</button>
       </form>
     </section>
-    <section class="message-box">
+    <h3 class="message-type hidden">Which type of message?</h3>
+    <section class="selection-box hidden">
+      <form class="radio-button">
+        <input type="radio" name="radio" id="radio1" value="affirmations">
+        <label for="radio1">affirmation</label>
+        <input type="radio" name="radio" id="radio2" value="mantras">
+        <label for="radio2">mantra</label>
+      </form>
+      <div>
+        <button class="receive-new-message hidden">Receive Message</button>
+      </div>
+    </section>
+    <section class="message-box hidden">
       <img class="yoaki" src="./assets/meditate.svg">
+      <p></p>
     </section>  
     <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="data.js"></script>
   </body>
 </html>

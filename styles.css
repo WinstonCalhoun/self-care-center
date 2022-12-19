@@ -18,10 +18,6 @@ html {
     height: 100%;
 }
 
-.hidden {
-    display: none;
-}
-
 .main-title,
 .message-type {
     color: #ffffff;
@@ -70,24 +66,32 @@ html {
 
 .login-name,
 .user-name,
-.login-page {
+.login-page-button {
     border-radius: 10px;
     display: flex;
     margin: 15px;
-    margin-right: 50px;
+    margin-left: 40vw;
     justify-content: center
 }
 
-.login-name{
+.login-name {
     color: white;
+    margin-right: 41vw;
 }
 
 .login-page {
-    margin-left: 65px;
     color: black;
+}
+
+.login-page-button {
+    margin-left: 46vw;
 }
 
 .yoaki {
     height: 70px;
     width: 60px;
+}
+
+.hidden {
+    display: none;
 }
