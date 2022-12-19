@@ -1,12 +1,3 @@
-/* font-family: 'Quicksand', sans-serif;
-COLORS
-light-yellow - #f7e4bf;
-light-blue - #78a7c6;
-dark-blue - #134d71;
-white - #ffffff;
-black - #000000;
-*/
-
 * {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
@@ -22,10 +13,6 @@ html {
 .message-type {
     color: #ffffff;
 }
-/* 
-.message-type {
-    color: #ffffff;
-} */
 
 .selection-box {
     display: flex;
@@ -71,7 +58,11 @@ html {
     display: flex;
     margin: 15px;
     margin-left: 40vw;
-    justify-content: center
+    justify-content: center;
+}
+
+.user-name {
+    margin-left: 45vw;
 }
 
 .login-name {
@@ -79,12 +70,14 @@ html {
     margin-right: 41vw;
 }
 
-.login-page {
-    color: black;
+.login-page-button {
+    margin-left: 47.5vw;
+    background-color: #134d71;
+    color: white;
 }
 
-.login-page-button {
-    margin-left: 46vw;
+.say-greeting {
+    color: white;
 }
 
 .yoaki {
