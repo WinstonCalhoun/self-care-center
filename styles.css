@@ -35,14 +35,18 @@ html {
     background-color: #ffffff;
     border-radius: 10px;
     align-items: center;
-    margin-left: 30vw;
+    margin-left: 32vw;
  }
 
-.radio-button {
+/* .radio-button {
     display: flex;
     color: black;
-    padding: 0px 70px;
+    padding: 0px 15px 0px 15px;
     margin-left: 30px;
+} */
+
+#raido1 {
+    padding-right: 40vw;
 }
 
 .make-new-message {
@@ -62,16 +66,16 @@ html {
 }
 
 .user-name {
-    margin-left: 45vw;
+    margin-left: 43.5vw;
 }
 
 .login-name {
     color: white;
-    margin-right: 41vw;
+    margin-right: 42vw;
 }
 
 .login-page-button {
-    margin-left: 47.5vw;
+    margin-left: 46.5vw;
     background-color: #134d71;
     color: white;
 }
